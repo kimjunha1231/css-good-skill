@@ -1,5 +1,5 @@
 # css-good-skill
-1. color-mix : 혼합색상 만들기  
+1. color-mix : 혼합색상 만들기 
 ex) 레드 블루 50% 혼합
 ```
 .container {
