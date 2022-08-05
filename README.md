@@ -83,9 +83,27 @@ ex)
   ...;
  }
  ```
+ ```
  nav {
   & ul {
    & li {
    }
   }
  }
+ex) &기호 플레이스 홀더
+```
+.foo {
+color: red:
+@nest : not(&) {
+ color: blue;
+ }
+}
+```
+```
+.foo {
+ color: red;
+ }
+ :not(.foo) {
+  color: blue;
+ }
+```
