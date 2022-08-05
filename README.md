@@ -70,3 +70,23 @@ ex)
 * lvh : 가장 큰 viewport 높이 
 * svh : 가장 작은 viewport 높이 
 * dvh : 동적 viewport 높이 
+ 7. @nest
+ ex) 동일한 결과
+ ```
+ nav { 
+  ...;
+ }
+ nav ul {
+  ...;
+ }
+ nav ul li {
+  ...;
+ }
+ ```
+ ```
+ nav {
+  & ul {
+   & li {
+   }
+  }
+ }
