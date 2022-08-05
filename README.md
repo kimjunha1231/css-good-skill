@@ -41,4 +41,29 @@ ex)
  ex) 검정, 흰이 아닌 옵션을 선택 가능
  ```
  color: color-contrast(blue vs pink, yellow, green);
+ ```
+ 4.inert - 페이지의 섹션을 고정 할 수 있다\
+ ex)
+ ```
+ <form inert>
+  <input type="..." />
+  <button>Save</button>
+ </form>
+ ```
+ 5. :has() - 부모 요소에 특정 자식이 있는지 여부에 따라 부모 요소의 스타일이 가능
+ ex)
+ ```
+ form:has(button) {
+ }
+ ```
+ ex) 목록 항목에 스타일 추가 가능
+ ```
+ li:has(a) {
+ }
+ ```
+ ex) 이미지 주변에 있는 링크의 모양을 변경 할 수 있음
+ ```
+ a:has(> img) {
+ }
+ ```
  
