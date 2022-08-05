@@ -108,3 +108,6 @@ color: red:
   color: blue;  
  }
 ```
+8. @scope - 스타일의 범위를 지정하거나 자신만의 버블로 분리
+9. @container
+10. Custom-media 미디어 쿼리 변수를 만들고 재사용 가능
