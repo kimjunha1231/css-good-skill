@@ -67,6 +67,6 @@ ex)
  }
  ```
  6. Viewport Units - 웹 사이트를 볼 수 있는 영역 또는 윈도우  
-*lvh : 가장 큰 viewport 높이
-*svh : 가장 작은 viewport 높이
-*dvh : 동적 viewport 높이
+*lvh : 가장 큰 viewport 높이 
+*svh : 가장 작은 viewport 높이 
+*dvh : 동적 viewport 높이 
